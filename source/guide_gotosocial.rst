@@ -166,7 +166,7 @@ Repeat the installation_ step and copy your ``config.yaml`` and ``storage`` dire
   [isabell@stardust ~]$ cp ~/gotosocial-backup/config.yaml ~/gotosocial/config.yaml
   [isabell@stardust ~]$ cp -r ~/gotosocial-backup/storage ~/gotosocial/storage
 
-Sart GoToSocial using the ``supervisorctl start gotosocial`` command. If it's not starting, investigate errors in the supervisord logfile located in ``~/tmp``. Otherwise have fun using the latest version and consider removing your backup after some days.
+Start GoToSocial using the ``supervisorctl start gotosocial`` command. If it's not starting, investigate errors in the supervisord logfile located in ``~/tmp``. Otherwise, have fun using the latest version and consider removing your backup after some days.
 
 ----
 
